@@ -1,6 +1,6 @@
 # schunk_gripper
 
-1) Before using the Schunk gripper connect it to the controller.![alt text](https://github.com/togjade/schunk_gripper/blob/master/schunk_connection.jpeg?raw=true)
+1) Before using the Schunk gripper connect it to the controller.![alt text](https://github.com/togjade/schunk_gripper/blob/master/schunk_connection_2_controller.jpeg?raw=true)
 
 2) Connect "+" of power supply (voltage limit: 24, current limit: 1.8) to the V_mot and V_log.
 
