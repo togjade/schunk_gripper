@@ -5,7 +5,7 @@
 3) Connect "com" of power supply to the GND and common ground of power supply to the common ground on the controller
 4) Copy the [folder](https://github.com/togjade/schunk_gripper/tree/master/schunk_ezn64) to the your ROS catkin workspace and compile it
 5) Run " roslaunch schunk_ezn64 ezn64_usb_control.launch "
-6) ALWAYS run schunk_ezn64/reference using the rosservice
+6) ALWAYS run schunk_ezn64/reference using the rosservice!
 7) [ezn64_usb_control_lib.cpp](https://github.com/togjade/schunk_gripper/blob/master/schunk_ezn64/src/ezn64_usb_control_lib.cpp) contains subscriber. So you can create the publisher that publishes [position, velocity] in the given order. The message type was set to Float32MultiArray, but you can change it yourselve. 
 
 
